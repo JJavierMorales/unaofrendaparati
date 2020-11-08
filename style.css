@@ -1,0 +1,93 @@
+/*
+Theme Name: Music Journal
+Theme URI: https://catchthemes.com/themes/music-journal/
+Author: Catch Themes
+Author URI: https://catchthemes.com/
+Description: Photo Journal is a free dark photography WordPress theme that’s been crafted with simplicity and creativity in mind. The theme focuses on providing the best for creative personas like photographers, photo bloggers, graphic designers, and other creative freelancers who want a touch of both class and minimalism. Dozens of specific, customizable portfolio and gallery settings will ensure your images and high resolution photography truly pop in a memorable and auspicious way. The dark concept in the theme adds extra charm to your photography exposure. Features like Featured Content, Featured Slider, Hero Content, Portfolio, Testimonials, Services, and more have been added in Photo Journal. Supple HTML5 coding underpins a media-savvy theme that can handle high resolution photography and embedded video with utter ease and dexterity. Photo Journal is the ultimate theme if you want simplicity, customizability and image-centered design with a touch of boldness in it. For any technical issue, please post in our support forum at https://catchthemes.com/support/. For more information, check out Theme Instructions at https://catchthemes.com/themes/music-journal/#theme-instructions and Demo at https://catchthemes.com/demo/music-journal/
+Version: 1.0.2
+Requires at least: 5.1
+Tested up to: 5.5
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: music-journal
+Template: photo-journal
+Tags: one-column, two-columns, right-sidebar, grid-layout, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets,  microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, theme-options, translation-ready, blog, photography, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+This is the child theme for Photo Journal theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+/* Button Background Color */
+#scrollup,
+.widget_calendar tbody a,
+.custom-header-media .wp-custom-header-video-button,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link span,
+#feature-slider-section .cycle-pager span:hover,
+#feature-slider-section .cycle-pager span:focus,
+#feature-slider-section .cycle-pager .cycle-pager-active,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.sticky-post,
+.page-links a,
+.site-main #infinite-handle span,
+.pagination .prev,
+.pagination .next,
+.posts-navigation a,
+#promotion-section .more-button,
+.woocommerce span.onsale,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.view-all-button .more-link,
+.view-icon,
+.entry-header .cat-links a,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+#hero-section .more-button,
+.pricing-section .more-button,
+.promotion-video-section .custom-video-button:hover,
+.promotion-video-section .custom-video-button:focus,
+.promotion-video-section .button-outline:hover .custom-video-button,
+.promotion-video-section .button-outline:focus .custom-video-button,
+#events-section.modern .button.ghost-button:hover,
+#events-section.modern .button.ghost-button:focus,
+.wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.header-highlights-section .highlight .more-button,
+.app-section .more-link .more-button {
+	background-color: #4063e6;
+}
+
+/* Hero Content Image Overlay */
+.post-thumbnail-background::before {
+    background-color: rgba(0,0,0,0);
+}
