@@ -14,7 +14,7 @@ Crear una herramienta que ayuda a conocer el significado de los altares de muert
 - Dar a conocer a los extranjeros los elementos de un altar de muertos mediante analogías. 
 - Fomentar la celebración del día de muertos 
 
-
+#### Tecnologias usadas
 
 **Wordpress**
 
